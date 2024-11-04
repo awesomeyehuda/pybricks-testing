@@ -13,4 +13,5 @@ c_motor = Motor(Port.C)
 d_motor = Motor(Port.D)
 
 
-gyro_drive_base = GyroDriveBase(left_motor, right_motor, wheel_diameter=87)
+gyro_drive_base = GyroDriveBase(left_motor, right_motor)
+
